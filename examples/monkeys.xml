@@ -1,0 +1,52 @@
+<xml>
+  <animals>
+    <elephant id="3">
+      <name>elephant1</name>
+      <trunk>large</trunk>
+    </elephant>
+    <monkey id="1">
+      <contact>
+        <name type='first'>monkey1</name>
+        <name type='last'>monkeylastname</name>
+      </contact>
+      <bananas>
+        <banana>
+          <id>1</id>
+          <size>small</size>
+        </banana>
+        <banana>
+          <id>2</id>
+          <size>medium</size>
+        </banana>
+      </bananas>
+      <yrsold>23</yrsold>
+      <personality hilarious="true">quiet</personality>
+      <street>300 Monkey St</street>
+      <city>Cincinnati</city>
+      <state>Oh</state>
+      <zip>45219</zip>
+    </monkey>
+    <monkey id="2">
+      <contact>
+        <name type='first'>monkey2</name>
+        <name type='last'>monkeylastname</name>
+      </contact>
+      <bananas>
+        <banana>
+          <id>3</id>
+          <size>large</size>
+        </banana>
+        <banana>
+          <id>4</id>
+          <size>huge</size>
+        </banana>
+      </bananas>
+      <yrsold>33</yrsold>
+      <personality hilarious="false">loud</personality>
+      <street>301 Monkey St</street>
+      <city>Cincinnati</city>
+      <state>Oh</state>
+      <zip>45219</zip>
+    </monkey>
+  </animals>
+</xml>
