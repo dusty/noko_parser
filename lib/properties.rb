@@ -155,8 +155,7 @@ module NokoParser
         end
         _add_embedded_property(name,opts[:xpath],opts[:class],opts[:single])
       end
-    
-      protected
+
       ##
       # Adds to the class variable @text_properties in addition to
       # creating an accessor for this property
@@ -189,9 +188,9 @@ module NokoParser
   
     module InstanceMethods
     
-      def method_missing(*args)
-        nil
-      end
+      # def _something
+      #   true
+      # end
     
     end
     
