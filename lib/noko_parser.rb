@@ -5,7 +5,7 @@ module NokoParser
   class NokoParserError < StandardError; end
 
   def self.version
-    "0.0.8"
+    "0.0.9"
   end
   
 end
@@ -25,5 +25,5 @@ class Object
   end
 end
 
-require File.join(File.expand_path(File.dirname(__FILE__)), 'parser')
-require File.join(File.expand_path(File.dirname(__FILE__)), 'properties')
+require 'noko_parser/parser'
+require 'noko_parser/properties'
