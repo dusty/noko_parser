@@ -6,9 +6,17 @@ Gem::Specification.new do |s|
   s.homepage = "http://code.dusty.name" 
   s.platform = Gem::Platform::RUBY 
   s.summary = "Wrapper around Nokogiri to easily parse xml files with xpath" 
-  s.files = Dir["{test,lib,examples}/**/*"]
   s.has_rdoc = true 
   s.extra_rdoc_files = ["README.txt"]
   s.add_dependency('nokogiri')
   s.rubyforge_project = "none"
+  s.files = %w{
+    README.txt
+    examples/monkey.rb
+    examples/monkeys.xml
+    lib/noko_parser.rb
+    lib/noko_parser/parser.rb
+    lib/noko_parser/properties.rb
+    test/test_noko_parser.rb
+  }
 end
