@@ -5,7 +5,7 @@ module NokoParser
   class NokoParserError < StandardError; end
 
   def self.version
-    "0.0.9"
+    "0.1.0"
   end
   
 end

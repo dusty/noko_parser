@@ -1,6 +1,6 @@
 Gem::Specification.new do |s| 
   s.name = "noko_parser" 
-  s.version = "0.0.9"
+  s.version = "0.1.0"
   s.author = "Dusty Doris" 
   s.email = "github@dusty.name" 
   s.homepage = "http://code.dusty.name" 
